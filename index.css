@@ -29,24 +29,24 @@ body {
 
 header {
 	color: rgba(0, 0, 0, 0.7);
-	background-color: rgba(244, 245, 247, 1);
 	text-align: center;
 	position: absolute;
 	width: 100%;
-	bottom: 522px;
+	top: -50px;
+	/*bottom: 522px;*/
 }
 
 .nav ul {
 	position: relative;
 	overflow: hidden;
-	left: 27%;
+	left: 0;
 	float: left;
 }
 
 .nav li {
 	display: inline-block;
 	width: 130px;
-	height: 30px;
+	height: 20px;
 }
 
 a:link {
@@ -141,7 +141,6 @@ ul.table > li.right {
 /* copyright */
 footer {
 	color: rgba(0, 0, 0, 0.7);
-	background-color: rgba(244, 245, 247, 1);
 	text-align: center;
 	position: absolute;
 	width: 100%;
