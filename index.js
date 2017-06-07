@@ -3,10 +3,17 @@
 //
 
 function copyright() {
-  myD       = new Date();
-  myYear    = myD.getYear()
-  myYear4   = (myYear < 2000) ? myYear+1900 : myYear;
-  document.write('&copy; 2009 - ');
-  document.write( myYear4 );
-  document.write(' sustny');
+  document.addEventListener("DOMContentLoaded",function(eve){
+    today = new Date();
+    year = today.getFullYear();
+    /*
+    document.write('&copy; 2009 - ');
+    document.write( year );
+    document.write(' sustny');
+    */
+    //document.body.innerHTML += "&copy; 2009 - " + year + " sustny";
+    //document.body.insertAdjacentHTML("afterend", "<footer>&copy; 2009 - " + year + " sustny</footer>");
+    var footer = document.getElementById('copy');
+    footer.insertAdjacentHTML("afterbegin", "&copy; 2009 - " + year + " sustny");
+  },false);
 }
