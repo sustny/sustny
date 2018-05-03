@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<!---
+  === memo ===
+  Created: 2018.05.03 10:20
+--->
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=360,initial-scale=1">
+    <meta name="description" content="About sustny">
+    <!--
+    <link rel="SHORTCUT ICON" href="favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon.png">
+    -->
+    <title>sustny.me</title>
+    <style type="text/css">
+      body {
+        font-family:Avenir, "Open Sans", "Helvetica Neue", Helvetica, Arial, Verdana, Roboto,
+        "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",
+        "Meiryo UI", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+
+      a:link {
+        color: rgba(0, 155, 191, 1);}
+
+      a:visited {
+        color: rgba(0, 155, 191, 0.8);}
+
+      a:hover {
+        color: rgba(255, 255, 255, 1);
+        background: rgba(0, 155, 191, 1);}
+
+      h1,h2,h3 {
+        font-weight: 500;
+        margin: 5px 10px;}
+
+      h1 {
+        font-size: 36px;
+        margin-bottom: 15px;}
+
+      h2 {
+        font-size: 30px;}
+
+      h3 {
+        font-size: 24px;}
+
+      footer {
+        color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+        position: absolute;
+        margin: 25px 15px;}
+    </style>
+    <script type="text/javascript">
+      document.addEventListener("DOMContentLoaded",function(eve) {
+        today = new Date();
+        year = today.getFullYear();
+        footer = document.getElementById('copyright');
+        footer.insertAdjacentHTML("afterbegin", "&copy; 2009 - " + year + " sustny");
+      },false);
+    </script>
+  </head>
+
+  <body>
+    <header>
+      <h1>sustny.jp</h1>
+    </header>
+    <main>
+      <h2>Profile</h2>
+      <ul>
+        <li>Job: Server Engineer</li>
+        <li>Live: Tokyo, Japan</li>
+      </ul>
+
+      <h2>SNS</h2>
+      <ul>
+        <li><a href="http://sustny.hateblo.jp/" target="_blank">Blog</a></li>
+        <li>Mastodon</li>
+        <ul>
+          <li><a href="https://mstdn.jp/@sustny" target="_blank">sustny@mstdn.jp</a></li>
+          <li><a href="https://chibadon.jp/@sustny" target="_blank">sustny@chibadon.jp</a></li>
+        </ul>
+        <li><a href="https://github.com/sustny" target="_blank">GitHub</a></li>
+        <li><a href="https://www.strava.com/athletes/sustny" target="_blank">Strava</a></li>
+      </ul>
+
+      <h2>Public Information</h2>
+      <h3>Income</h3>
+      <ul>
+        <li><a href="http://sustny.me/pay_s5.html" target="_blank">2017.08 - now</a></li>
+        <li><a href="http://sustny.me/pay_s4.html" target="_blank">2016.10 - 2017.07</a></li>
+        <li><a href="http://sustny.me/pay_s3.html" target="_blank">2015.04 - 2016.06</a></li>
+        <li><a href="http://sustny.me/pay_s2.html" target="_blank">2013.05 - 2015.03</a></li>
+      </ul>
+
+      <h3>Outcome</h3>
+      <li><a href="http://sustny.me/pay_life.html" target="_blank">Living Expenses</a></li>
+      <li><a href="http://sustny.me/pay_infra.html" target="_blank">Infrastructure</a></li>
+
+    </main>
+    <footer id="copyright"></footer>
+  </body>
+</html>
